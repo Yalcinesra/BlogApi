@@ -55,6 +55,6 @@ app.use('/blog', require('./src/routes/blogRouter'))
 app.use(require('./src/middlewares/errorHandler'))
 
 // SYNCRONIZATION:
-// require('./src/sync')()
+ //require('./src/sync')()
 
 app.listen(PORT, () => console.log('running on http://127.0.0.1:' + PORT))
